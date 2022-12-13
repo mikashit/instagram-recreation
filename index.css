@@ -1,0 +1,66 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/*app padding */
+header,
+section {
+    padding: 0px 15px;
+}
+
+/*header */
+header { 
+  border-bottom: 1px solid gray;
+}
+
+.user-img {
+    margin-left: auto;
+    margin-top: 20px;
+}
+
+.app-title {
+    width: 150px;
+    padding: 5px 0px
+}
+
+/*header and user bar display */
+header,
+.user-bar {
+    display: flex;
+    
+}
+
+/*user bar */
+.user-bar {
+    margin-top: 30px;
+}
+
+.user-bar-info {
+    display: inline-block;
+    line-height: 5px;
+    margin-left: 15px
+}
+
+.profile-img {
+    margin-top: 5px;
+}
+
+.avatar-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.post-img {
+    width: 100%;
+}
+
+.icon-img {
+    width: 40px;
+    height: 40px;
+}
+
+.comment-img {
+    padding: 0px 15px;
+}
